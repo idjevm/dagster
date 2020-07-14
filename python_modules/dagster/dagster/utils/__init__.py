@@ -463,3 +463,17 @@ def restore_sys_modules():
         yield
     finally:
         sys.modules = sys_modules
+
+
+def pid_exists(pid):
+    if IS_WINDOWS:
+        import psutil  # pylint: disable=import-error
+
+        return psutil.pid_exists(pid)
+
+    try:
+        os.kill(pid, 0)
+    except OSError:
+        return False
+    else:
+        return True

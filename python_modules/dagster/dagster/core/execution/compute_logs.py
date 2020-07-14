@@ -6,6 +6,7 @@ import subprocess
 import sys
 import time
 import warnings
+from collections import namedtuple
 from contextlib import contextmanager
 
 from dagster.core.execution import poll_compute_logs, watch_orphans
@@ -74,11 +75,11 @@ def redirect_stream(to_stream=os.devnull, from_stream=sys.stdout):
 @contextmanager
 def tail_to_stream(path, stream):
     if IS_WINDOWS:
-        with execute_windows_tail(path, stream):
-            yield
+        with execute_windows_tail(path, stream) as pid_info:
+            yield pid_info
     else:
-        with execute_posix_tail(path, stream):
-            yield
+        with execute_posix_tail(path, stream) as pid_info:
+            yield pid_info
 
 
 @contextmanager
@@ -93,7 +94,7 @@ def execute_windows_tail(path, stream):
     )
 
     try:
-        yield
+        yield (tail_process.pid, None)
     finally:
         if tail_process:
             time.sleep(2 * poll_compute_logs.POLLING_INTERVAL)
@@ -115,7 +116,7 @@ def execute_posix_tail(path, stream):
     )
 
     try:
-        yield
+        yield (tail_process.pid, watcher_process.pid)
     finally:
         _clean_up_subprocess(tail_process)
         _clean_up_subprocess(watcher_process)
