@@ -1,6 +1,7 @@
 from __future__ import print_function
 
 import os
+import pytest
 import signal
 import time
 
@@ -13,7 +14,22 @@ from dagster.core.execution.compute_logs import (
 from dagster.utils import ensure_file, get_multiprocessing_context, pid_exists
 
 
-def test_redirect_file():
+@pytest.fixture(scope='function')
+def windows_legacy_stdio_env():
+    old_env_value = os.getenv('PYTHONLEGACYWINDOWSSTDIO')
+    try:
+        os.environ['PYTHONLEGACYWINDOWSSTDIO'] = '1'
+        yield
+    finally:
+        if old_env_value is not None:
+            os.environ['PYTHONLEGACYWINDOWSSTDIO'] = old_env_value
+        else:
+            del os.environ['PYTHONLEGACYWINDOWSSTDIO']
+
+
+def test_redirect_file(
+    windows_legacy_stdio_env,  # pylint: disable=redefined-outer-name, unused-argument
+):
     with seven.TemporaryDirectory() as tempdir:
         target_path = os.path.join(tempdir, 'target.out')
         redirected_path = os.path.join(tempdir, 'redirected.out')
@@ -28,7 +44,9 @@ def test_redirect_file():
             assert f.read() == 'This is some file redirect mumbo jumbo'
 
 
-def test_mirror_stream_to_file():
+def test_mirror_stream_to_file(
+    windows_legacy_stdio_env,  # pylint: disable=redefined-outer-name, unused-argument
+):
     with seven.TemporaryDirectory() as tempdir:
         target_path = os.path.join(tempdir, 'target.out')
         redirected_path = os.path.join(tempdir, 'redirected.out')

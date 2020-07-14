@@ -6,7 +6,6 @@ import subprocess
 import sys
 import time
 import warnings
-from collections import namedtuple
 from contextlib import contextmanager
 
 from dagster.core.execution import poll_compute_logs, watch_orphans
