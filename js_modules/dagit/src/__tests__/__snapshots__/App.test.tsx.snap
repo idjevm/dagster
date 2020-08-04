@@ -10,7 +10,7 @@ exports[`renders execution 1`] = `
   }
 >
   <div
-    className="LeftNav__LeftNavContainer-sc-1s6k43w-1 eTCgsW"
+    className="LeftNav__LeftNavContainer-sc-1s6k43w-2 goigJr"
   >
     <div
       style={
@@ -20,7 +20,7 @@ exports[`renders execution 1`] = `
       }
     >
       <div
-        className="LeftNav__LogoContainer-sc-1s6k43w-4 kFRSr"
+        className="LeftNav__LogoContainer-sc-1s6k43w-5 ebRkKK"
       >
         <img
           alt="logo"
@@ -37,7 +37,7 @@ exports[`renders execution 1`] = `
           }
         />
         <div
-          className="LeftNav__LogoMetaContainer-sc-1s6k43w-5 jVbWDi"
+          className="LeftNav__LogoMetaContainer-sc-1s6k43w-6 hAsnwr"
         >
           <img
             alt="title"
@@ -65,7 +65,7 @@ exports[`renders execution 1`] = `
         />
       </div>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/runs"
         onClick={[Function]}
       >
@@ -89,13 +89,13 @@ exports[`renders execution 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Runs
         </div>
       </a>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/assets"
         onClick={[Function]}
       >
@@ -119,9 +119,39 @@ exports[`renders execution 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Assets
+        </div>
+      </a>
+      <a
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
+        href="/scheduler"
+        onClick={[Function]}
+      >
+        <span
+          className="bp3-icon bp3-icon-time"
+          icon="time"
+        >
+          <svg
+            data-icon="time"
+            height={18}
+            viewBox="0 0 16 16"
+            width={18}
+          >
+            <desc>
+              time
+            </desc>
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm1-6.41V4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .28.11.53.29.71l2 2a1.003 1.003 0 001.42-1.42L9 7.59z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <div
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
+        >
+          Scheduler
         </div>
       </a>
     </div>
@@ -205,36 +235,11 @@ exports[`renders execution 1`] = `
           </div>
         </div>
       </div>
-      <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
-        href="/schedules"
-        onClick={[Function]}
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
       >
-        <span
-          className="bp3-icon bp3-icon-calendar"
-          icon="calendar"
-        >
-          <svg
-            data-icon="calendar"
-            height={18}
-            viewBox="0 0 16 16"
-            width={18}
-          >
-            <desc>
-              calendar
-            </desc>
-            <path
-              d="M11 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1s-1 .4-1 1v1c0 .5.4 1 1 1zm3-2h-1v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H6v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H1c-.6 0-1 .5-1 1v12c0 .6.4 1 1 1h13c.6 0 1-.4 1-1V2c0-.6-.5-1-1-1zM5 13H2v-3h3v3zm0-4H2V6h3v3zm4 4H6v-3h3v3zm0-4H6V6h3v3zm4 4h-3v-3h3v3zm0-4h-3V6h3v3zM4 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1S3 .4 3 1v1c0 .5.4 1 1 1z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
-        >
-          Schedules
-        </div>
-      </a>
+        Pipelines & Solids:
+      </div>
       <div
         style={
           Object {
@@ -355,6 +360,95 @@ exports[`renders execution 1`] = `
             airline_demo_warehouse_pipeline
           </a>
         </div>
+      </div>
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
+      >
+        Schedules:
+      </div>
+      <div
+        style={
+          Object {
+            "borderTop": "1px solid #30404D",
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <div
+          className="SchedulesList__Header-iq7kk9-0 gMLkYr"
+        >
+          <div
+            className="bp3-input-group bp3-small"
+          >
+            <input
+              className="bp3-input"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Search schedules..."
+              style={
+                Object {
+                  "background": "#30404D",
+                  "border": "1px solid #394B59",
+                  "paddingRight": 10,
+                }
+              }
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "width": 4,
+              }
+            }
+          />
+          <div
+            className="bp3-button-group"
+          >
+            <a
+              href="/schedules"
+            >
+              <button
+                className="bp3-button bp3-small"
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                type="button"
+              >
+                <span
+                  className="bp3-icon bp3-icon-diagram-tree"
+                  icon="diagram-tree"
+                >
+                  <svg
+                    data-icon="diagram-tree"
+                    height={13}
+                    viewBox="0 0 16 16"
+                    width={13}
+                  >
+                    <desc>
+                      diagram-tree
+                    </desc>
+                    <path
+                      d="M15 8v3h-2V9H9v2H7V9H3v2H1V8a1 1 0 011-1h5V5h2v2h5a1 1 0 011 1zM1 12h2a1 1 0 011 1v2a1 1 0 01-1 1H1a1 1 0 01-1-1v-2a1 1 0 011-1zm12 0h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1zm-6 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1v-2a1 1 0 011-1zM7 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V1a1 1 0 011-1z"
+                      fillRule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="bp3-button-text"
+                >
+                  View All
+                   
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          className="SchedulesList__Items-iq7kk9-2 gXSmNS"
+        />
       </div>
       <div
         style={
@@ -645,7 +739,7 @@ exports[`renders pipeline page 1`] = `
   }
 >
   <div
-    className="LeftNav__LeftNavContainer-sc-1s6k43w-1 eTCgsW"
+    className="LeftNav__LeftNavContainer-sc-1s6k43w-2 goigJr"
   >
     <div
       style={
@@ -655,7 +749,7 @@ exports[`renders pipeline page 1`] = `
       }
     >
       <div
-        className="LeftNav__LogoContainer-sc-1s6k43w-4 kFRSr"
+        className="LeftNav__LogoContainer-sc-1s6k43w-5 ebRkKK"
       >
         <img
           alt="logo"
@@ -672,7 +766,7 @@ exports[`renders pipeline page 1`] = `
           }
         />
         <div
-          className="LeftNav__LogoMetaContainer-sc-1s6k43w-5 jVbWDi"
+          className="LeftNav__LogoMetaContainer-sc-1s6k43w-6 hAsnwr"
         >
           <img
             alt="title"
@@ -700,7 +794,7 @@ exports[`renders pipeline page 1`] = `
         />
       </div>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/runs"
         onClick={[Function]}
       >
@@ -724,13 +818,13 @@ exports[`renders pipeline page 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Runs
         </div>
       </a>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/assets"
         onClick={[Function]}
       >
@@ -754,9 +848,39 @@ exports[`renders pipeline page 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Assets
+        </div>
+      </a>
+      <a
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
+        href="/scheduler"
+        onClick={[Function]}
+      >
+        <span
+          className="bp3-icon bp3-icon-time"
+          icon="time"
+        >
+          <svg
+            data-icon="time"
+            height={18}
+            viewBox="0 0 16 16"
+            width={18}
+          >
+            <desc>
+              time
+            </desc>
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm1-6.41V4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .28.11.53.29.71l2 2a1.003 1.003 0 001.42-1.42L9 7.59z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <div
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
+        >
+          Scheduler
         </div>
       </a>
     </div>
@@ -840,36 +964,11 @@ exports[`renders pipeline page 1`] = `
           </div>
         </div>
       </div>
-      <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
-        href="/schedules"
-        onClick={[Function]}
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
       >
-        <span
-          className="bp3-icon bp3-icon-calendar"
-          icon="calendar"
-        >
-          <svg
-            data-icon="calendar"
-            height={18}
-            viewBox="0 0 16 16"
-            width={18}
-          >
-            <desc>
-              calendar
-            </desc>
-            <path
-              d="M11 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1s-1 .4-1 1v1c0 .5.4 1 1 1zm3-2h-1v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H6v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H1c-.6 0-1 .5-1 1v12c0 .6.4 1 1 1h13c.6 0 1-.4 1-1V2c0-.6-.5-1-1-1zM5 13H2v-3h3v3zm0-4H2V6h3v3zm4 4H6v-3h3v3zm0-4H6V6h3v3zm4 4h-3v-3h3v3zm0-4h-3V6h3v3zM4 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1S3 .4 3 1v1c0 .5.4 1 1 1z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
-        >
-          Schedules
-        </div>
-      </a>
+        Pipelines & Solids:
+      </div>
       <div
         style={
           Object {
@@ -990,6 +1089,95 @@ exports[`renders pipeline page 1`] = `
             airline_demo_warehouse_pipeline
           </a>
         </div>
+      </div>
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
+      >
+        Schedules:
+      </div>
+      <div
+        style={
+          Object {
+            "borderTop": "1px solid #30404D",
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <div
+          className="SchedulesList__Header-iq7kk9-0 gMLkYr"
+        >
+          <div
+            className="bp3-input-group bp3-small"
+          >
+            <input
+              className="bp3-input"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Search schedules..."
+              style={
+                Object {
+                  "background": "#30404D",
+                  "border": "1px solid #394B59",
+                  "paddingRight": 10,
+                }
+              }
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "width": 4,
+              }
+            }
+          />
+          <div
+            className="bp3-button-group"
+          >
+            <a
+              href="/schedules"
+            >
+              <button
+                className="bp3-button bp3-small"
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                type="button"
+              >
+                <span
+                  className="bp3-icon bp3-icon-diagram-tree"
+                  icon="diagram-tree"
+                >
+                  <svg
+                    data-icon="diagram-tree"
+                    height={13}
+                    viewBox="0 0 16 16"
+                    width={13}
+                  >
+                    <desc>
+                      diagram-tree
+                    </desc>
+                    <path
+                      d="M15 8v3h-2V9H9v2H7V9H3v2H1V8a1 1 0 011-1h5V5h2v2h5a1 1 0 011 1zM1 12h2a1 1 0 011 1v2a1 1 0 01-1 1H1a1 1 0 01-1-1v-2a1 1 0 011-1zm12 0h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1zm-6 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1v-2a1 1 0 011-1zM7 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V1a1 1 0 011-1z"
+                      fillRule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="bp3-button-text"
+                >
+                  View All
+                   
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          className="SchedulesList__Items-iq7kk9-2 gXSmNS"
+        />
       </div>
       <div
         style={
@@ -5230,7 +5418,7 @@ exports[`renders pipeline solid page 1`] = `
   }
 >
   <div
-    className="LeftNav__LeftNavContainer-sc-1s6k43w-1 eTCgsW"
+    className="LeftNav__LeftNavContainer-sc-1s6k43w-2 goigJr"
   >
     <div
       style={
@@ -5240,7 +5428,7 @@ exports[`renders pipeline solid page 1`] = `
       }
     >
       <div
-        className="LeftNav__LogoContainer-sc-1s6k43w-4 kFRSr"
+        className="LeftNav__LogoContainer-sc-1s6k43w-5 ebRkKK"
       >
         <img
           alt="logo"
@@ -5257,7 +5445,7 @@ exports[`renders pipeline solid page 1`] = `
           }
         />
         <div
-          className="LeftNav__LogoMetaContainer-sc-1s6k43w-5 jVbWDi"
+          className="LeftNav__LogoMetaContainer-sc-1s6k43w-6 hAsnwr"
         >
           <img
             alt="title"
@@ -5285,7 +5473,7 @@ exports[`renders pipeline solid page 1`] = `
         />
       </div>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/runs"
         onClick={[Function]}
       >
@@ -5309,13 +5497,13 @@ exports[`renders pipeline solid page 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Runs
         </div>
       </a>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/assets"
         onClick={[Function]}
       >
@@ -5339,9 +5527,39 @@ exports[`renders pipeline solid page 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Assets
+        </div>
+      </a>
+      <a
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
+        href="/scheduler"
+        onClick={[Function]}
+      >
+        <span
+          className="bp3-icon bp3-icon-time"
+          icon="time"
+        >
+          <svg
+            data-icon="time"
+            height={18}
+            viewBox="0 0 16 16"
+            width={18}
+          >
+            <desc>
+              time
+            </desc>
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm1-6.41V4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .28.11.53.29.71l2 2a1.003 1.003 0 001.42-1.42L9 7.59z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <div
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
+        >
+          Scheduler
         </div>
       </a>
     </div>
@@ -5425,36 +5643,11 @@ exports[`renders pipeline solid page 1`] = `
           </div>
         </div>
       </div>
-      <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
-        href="/schedules"
-        onClick={[Function]}
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
       >
-        <span
-          className="bp3-icon bp3-icon-calendar"
-          icon="calendar"
-        >
-          <svg
-            data-icon="calendar"
-            height={18}
-            viewBox="0 0 16 16"
-            width={18}
-          >
-            <desc>
-              calendar
-            </desc>
-            <path
-              d="M11 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1s-1 .4-1 1v1c0 .5.4 1 1 1zm3-2h-1v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H6v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H1c-.6 0-1 .5-1 1v12c0 .6.4 1 1 1h13c.6 0 1-.4 1-1V2c0-.6-.5-1-1-1zM5 13H2v-3h3v3zm0-4H2V6h3v3zm4 4H6v-3h3v3zm0-4H6V6h3v3zm4 4h-3v-3h3v3zm0-4h-3V6h3v3zM4 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1S3 .4 3 1v1c0 .5.4 1 1 1z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
-        >
-          Schedules
-        </div>
-      </a>
+        Pipelines & Solids:
+      </div>
       <div
         style={
           Object {
@@ -5575,6 +5768,95 @@ exports[`renders pipeline solid page 1`] = `
             airline_demo_warehouse_pipeline
           </a>
         </div>
+      </div>
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
+      >
+        Schedules:
+      </div>
+      <div
+        style={
+          Object {
+            "borderTop": "1px solid #30404D",
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <div
+          className="SchedulesList__Header-iq7kk9-0 gMLkYr"
+        >
+          <div
+            className="bp3-input-group bp3-small"
+          >
+            <input
+              className="bp3-input"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Search schedules..."
+              style={
+                Object {
+                  "background": "#30404D",
+                  "border": "1px solid #394B59",
+                  "paddingRight": 10,
+                }
+              }
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "width": 4,
+              }
+            }
+          />
+          <div
+            className="bp3-button-group"
+          >
+            <a
+              href="/schedules"
+            >
+              <button
+                className="bp3-button bp3-small"
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                type="button"
+              >
+                <span
+                  className="bp3-icon bp3-icon-diagram-tree"
+                  icon="diagram-tree"
+                >
+                  <svg
+                    data-icon="diagram-tree"
+                    height={13}
+                    viewBox="0 0 16 16"
+                    width={13}
+                  >
+                    <desc>
+                      diagram-tree
+                    </desc>
+                    <path
+                      d="M15 8v3h-2V9H9v2H7V9H3v2H1V8a1 1 0 011-1h5V5h2v2h5a1 1 0 011 1zM1 12h2a1 1 0 011 1v2a1 1 0 01-1 1H1a1 1 0 01-1-1v-2a1 1 0 011-1zm12 0h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1zm-6 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1v-2a1 1 0 011-1zM7 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V1a1 1 0 011-1z"
+                      fillRule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="bp3-button-text"
+                >
+                  View All
+                   
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          className="SchedulesList__Items-iq7kk9-2 gXSmNS"
+        />
       </div>
       <div
         style={
@@ -9815,7 +10097,7 @@ exports[`renders solids explorer 1`] = `
   }
 >
   <div
-    className="LeftNav__LeftNavContainer-sc-1s6k43w-1 eTCgsW"
+    className="LeftNav__LeftNavContainer-sc-1s6k43w-2 goigJr"
   >
     <div
       style={
@@ -9825,7 +10107,7 @@ exports[`renders solids explorer 1`] = `
       }
     >
       <div
-        className="LeftNav__LogoContainer-sc-1s6k43w-4 kFRSr"
+        className="LeftNav__LogoContainer-sc-1s6k43w-5 ebRkKK"
       >
         <img
           alt="logo"
@@ -9842,7 +10124,7 @@ exports[`renders solids explorer 1`] = `
           }
         />
         <div
-          className="LeftNav__LogoMetaContainer-sc-1s6k43w-5 jVbWDi"
+          className="LeftNav__LogoMetaContainer-sc-1s6k43w-6 hAsnwr"
         >
           <img
             alt="title"
@@ -9870,7 +10152,7 @@ exports[`renders solids explorer 1`] = `
         />
       </div>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/runs"
         onClick={[Function]}
       >
@@ -9894,13 +10176,13 @@ exports[`renders solids explorer 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Runs
         </div>
       </a>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/assets"
         onClick={[Function]}
       >
@@ -9924,9 +10206,39 @@ exports[`renders solids explorer 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Assets
+        </div>
+      </a>
+      <a
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
+        href="/scheduler"
+        onClick={[Function]}
+      >
+        <span
+          className="bp3-icon bp3-icon-time"
+          icon="time"
+        >
+          <svg
+            data-icon="time"
+            height={18}
+            viewBox="0 0 16 16"
+            width={18}
+          >
+            <desc>
+              time
+            </desc>
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm1-6.41V4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .28.11.53.29.71l2 2a1.003 1.003 0 001.42-1.42L9 7.59z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <div
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
+        >
+          Scheduler
         </div>
       </a>
     </div>
@@ -10010,36 +10322,11 @@ exports[`renders solids explorer 1`] = `
           </div>
         </div>
       </div>
-      <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
-        href="/schedules"
-        onClick={[Function]}
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
       >
-        <span
-          className="bp3-icon bp3-icon-calendar"
-          icon="calendar"
-        >
-          <svg
-            data-icon="calendar"
-            height={18}
-            viewBox="0 0 16 16"
-            width={18}
-          >
-            <desc>
-              calendar
-            </desc>
-            <path
-              d="M11 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1s-1 .4-1 1v1c0 .5.4 1 1 1zm3-2h-1v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H6v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H1c-.6 0-1 .5-1 1v12c0 .6.4 1 1 1h13c.6 0 1-.4 1-1V2c0-.6-.5-1-1-1zM5 13H2v-3h3v3zm0-4H2V6h3v3zm4 4H6v-3h3v3zm0-4H6V6h3v3zm4 4h-3v-3h3v3zm0-4h-3V6h3v3zM4 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1S3 .4 3 1v1c0 .5.4 1 1 1z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
-        >
-          Schedules
-        </div>
-      </a>
+        Pipelines & Solids:
+      </div>
       <div
         style={
           Object {
@@ -10160,6 +10447,95 @@ exports[`renders solids explorer 1`] = `
             airline_demo_warehouse_pipeline
           </a>
         </div>
+      </div>
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
+      >
+        Schedules:
+      </div>
+      <div
+        style={
+          Object {
+            "borderTop": "1px solid #30404D",
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <div
+          className="SchedulesList__Header-iq7kk9-0 gMLkYr"
+        >
+          <div
+            className="bp3-input-group bp3-small"
+          >
+            <input
+              className="bp3-input"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Search schedules..."
+              style={
+                Object {
+                  "background": "#30404D",
+                  "border": "1px solid #394B59",
+                  "paddingRight": 10,
+                }
+              }
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "width": 4,
+              }
+            }
+          />
+          <div
+            className="bp3-button-group"
+          >
+            <a
+              href="/schedules"
+            >
+              <button
+                className="bp3-button bp3-small"
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                type="button"
+              >
+                <span
+                  className="bp3-icon bp3-icon-diagram-tree"
+                  icon="diagram-tree"
+                >
+                  <svg
+                    data-icon="diagram-tree"
+                    height={13}
+                    viewBox="0 0 16 16"
+                    width={13}
+                  >
+                    <desc>
+                      diagram-tree
+                    </desc>
+                    <path
+                      d="M15 8v3h-2V9H9v2H7V9H3v2H1V8a1 1 0 011-1h5V5h2v2h5a1 1 0 011 1zM1 12h2a1 1 0 011 1v2a1 1 0 01-1 1H1a1 1 0 01-1-1v-2a1 1 0 011-1zm12 0h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1zm-6 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1v-2a1 1 0 011-1zM7 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V1a1 1 0 011-1z"
+                      fillRule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="bp3-button-text"
+                >
+                  View All
+                   
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          className="SchedulesList__Items-iq7kk9-2 gXSmNS"
+        />
       </div>
       <div
         style={
@@ -11526,7 +11902,7 @@ exports[`renders type page 1`] = `
   }
 >
   <div
-    className="LeftNav__LeftNavContainer-sc-1s6k43w-1 eTCgsW"
+    className="LeftNav__LeftNavContainer-sc-1s6k43w-2 goigJr"
   >
     <div
       style={
@@ -11536,7 +11912,7 @@ exports[`renders type page 1`] = `
       }
     >
       <div
-        className="LeftNav__LogoContainer-sc-1s6k43w-4 kFRSr"
+        className="LeftNav__LogoContainer-sc-1s6k43w-5 ebRkKK"
       >
         <img
           alt="logo"
@@ -11553,7 +11929,7 @@ exports[`renders type page 1`] = `
           }
         />
         <div
-          className="LeftNav__LogoMetaContainer-sc-1s6k43w-5 jVbWDi"
+          className="LeftNav__LogoMetaContainer-sc-1s6k43w-6 hAsnwr"
         >
           <img
             alt="title"
@@ -11581,7 +11957,7 @@ exports[`renders type page 1`] = `
         />
       </div>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/runs"
         onClick={[Function]}
       >
@@ -11605,13 +11981,13 @@ exports[`renders type page 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Runs
         </div>
       </a>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/assets"
         onClick={[Function]}
       >
@@ -11635,9 +12011,39 @@ exports[`renders type page 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Assets
+        </div>
+      </a>
+      <a
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
+        href="/scheduler"
+        onClick={[Function]}
+      >
+        <span
+          className="bp3-icon bp3-icon-time"
+          icon="time"
+        >
+          <svg
+            data-icon="time"
+            height={18}
+            viewBox="0 0 16 16"
+            width={18}
+          >
+            <desc>
+              time
+            </desc>
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm1-6.41V4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .28.11.53.29.71l2 2a1.003 1.003 0 001.42-1.42L9 7.59z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <div
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
+        >
+          Scheduler
         </div>
       </a>
     </div>
@@ -11721,36 +12127,11 @@ exports[`renders type page 1`] = `
           </div>
         </div>
       </div>
-      <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
-        href="/schedules"
-        onClick={[Function]}
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
       >
-        <span
-          className="bp3-icon bp3-icon-calendar"
-          icon="calendar"
-        >
-          <svg
-            data-icon="calendar"
-            height={18}
-            viewBox="0 0 16 16"
-            width={18}
-          >
-            <desc>
-              calendar
-            </desc>
-            <path
-              d="M11 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1s-1 .4-1 1v1c0 .5.4 1 1 1zm3-2h-1v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H6v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H1c-.6 0-1 .5-1 1v12c0 .6.4 1 1 1h13c.6 0 1-.4 1-1V2c0-.6-.5-1-1-1zM5 13H2v-3h3v3zm0-4H2V6h3v3zm4 4H6v-3h3v3zm0-4H6V6h3v3zm4 4h-3v-3h3v3zm0-4h-3V6h3v3zM4 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1S3 .4 3 1v1c0 .5.4 1 1 1z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
-        >
-          Schedules
-        </div>
-      </a>
+        Pipelines & Solids:
+      </div>
       <div
         style={
           Object {
@@ -11871,6 +12252,95 @@ exports[`renders type page 1`] = `
             airline_demo_warehouse_pipeline
           </a>
         </div>
+      </div>
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
+      >
+        Schedules:
+      </div>
+      <div
+        style={
+          Object {
+            "borderTop": "1px solid #30404D",
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <div
+          className="SchedulesList__Header-iq7kk9-0 gMLkYr"
+        >
+          <div
+            className="bp3-input-group bp3-small"
+          >
+            <input
+              className="bp3-input"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Search schedules..."
+              style={
+                Object {
+                  "background": "#30404D",
+                  "border": "1px solid #394B59",
+                  "paddingRight": 10,
+                }
+              }
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "width": 4,
+              }
+            }
+          />
+          <div
+            className="bp3-button-group"
+          >
+            <a
+              href="/schedules"
+            >
+              <button
+                className="bp3-button bp3-small"
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                type="button"
+              >
+                <span
+                  className="bp3-icon bp3-icon-diagram-tree"
+                  icon="diagram-tree"
+                >
+                  <svg
+                    data-icon="diagram-tree"
+                    height={13}
+                    viewBox="0 0 16 16"
+                    width={13}
+                  >
+                    <desc>
+                      diagram-tree
+                    </desc>
+                    <path
+                      d="M15 8v3h-2V9H9v2H7V9H3v2H1V8a1 1 0 011-1h5V5h2v2h5a1 1 0 011 1zM1 12h2a1 1 0 011 1v2a1 1 0 01-1 1H1a1 1 0 01-1-1v-2a1 1 0 011-1zm12 0h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1zm-6 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1v-2a1 1 0 011-1zM7 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V1a1 1 0 011-1z"
+                      fillRule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="bp3-button-text"
+                >
+                  View All
+                   
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          className="SchedulesList__Items-iq7kk9-2 gXSmNS"
+        />
       </div>
       <div
         style={
@@ -16111,7 +16581,7 @@ exports[`renders type page 2`] = `
   }
 >
   <div
-    className="LeftNav__LeftNavContainer-sc-1s6k43w-1 eTCgsW"
+    className="LeftNav__LeftNavContainer-sc-1s6k43w-2 goigJr"
   >
     <div
       style={
@@ -16121,7 +16591,7 @@ exports[`renders type page 2`] = `
       }
     >
       <div
-        className="LeftNav__LogoContainer-sc-1s6k43w-4 kFRSr"
+        className="LeftNav__LogoContainer-sc-1s6k43w-5 ebRkKK"
       >
         <img
           alt="logo"
@@ -16138,7 +16608,7 @@ exports[`renders type page 2`] = `
           }
         />
         <div
-          className="LeftNav__LogoMetaContainer-sc-1s6k43w-5 jVbWDi"
+          className="LeftNav__LogoMetaContainer-sc-1s6k43w-6 hAsnwr"
         >
           <img
             alt="title"
@@ -16166,7 +16636,7 @@ exports[`renders type page 2`] = `
         />
       </div>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/runs"
         onClick={[Function]}
       >
@@ -16190,13 +16660,13 @@ exports[`renders type page 2`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Runs
         </div>
       </a>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/assets"
         onClick={[Function]}
       >
@@ -16220,9 +16690,39 @@ exports[`renders type page 2`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Assets
+        </div>
+      </a>
+      <a
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
+        href="/scheduler"
+        onClick={[Function]}
+      >
+        <span
+          className="bp3-icon bp3-icon-time"
+          icon="time"
+        >
+          <svg
+            data-icon="time"
+            height={18}
+            viewBox="0 0 16 16"
+            width={18}
+          >
+            <desc>
+              time
+            </desc>
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm1-6.41V4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .28.11.53.29.71l2 2a1.003 1.003 0 001.42-1.42L9 7.59z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <div
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
+        >
+          Scheduler
         </div>
       </a>
     </div>
@@ -16306,36 +16806,11 @@ exports[`renders type page 2`] = `
           </div>
         </div>
       </div>
-      <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
-        href="/schedules"
-        onClick={[Function]}
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
       >
-        <span
-          className="bp3-icon bp3-icon-calendar"
-          icon="calendar"
-        >
-          <svg
-            data-icon="calendar"
-            height={18}
-            viewBox="0 0 16 16"
-            width={18}
-          >
-            <desc>
-              calendar
-            </desc>
-            <path
-              d="M11 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1s-1 .4-1 1v1c0 .5.4 1 1 1zm3-2h-1v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H6v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H1c-.6 0-1 .5-1 1v12c0 .6.4 1 1 1h13c.6 0 1-.4 1-1V2c0-.6-.5-1-1-1zM5 13H2v-3h3v3zm0-4H2V6h3v3zm4 4H6v-3h3v3zm0-4H6V6h3v3zm4 4h-3v-3h3v3zm0-4h-3V6h3v3zM4 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1S3 .4 3 1v1c0 .5.4 1 1 1z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
-        >
-          Schedules
-        </div>
-      </a>
+        Pipelines & Solids:
+      </div>
       <div
         style={
           Object {
@@ -16456,6 +16931,95 @@ exports[`renders type page 2`] = `
             airline_demo_warehouse_pipeline
           </a>
         </div>
+      </div>
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
+      >
+        Schedules:
+      </div>
+      <div
+        style={
+          Object {
+            "borderTop": "1px solid #30404D",
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <div
+          className="SchedulesList__Header-iq7kk9-0 gMLkYr"
+        >
+          <div
+            className="bp3-input-group bp3-small"
+          >
+            <input
+              className="bp3-input"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Search schedules..."
+              style={
+                Object {
+                  "background": "#30404D",
+                  "border": "1px solid #394B59",
+                  "paddingRight": 10,
+                }
+              }
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "width": 4,
+              }
+            }
+          />
+          <div
+            className="bp3-button-group"
+          >
+            <a
+              href="/schedules"
+            >
+              <button
+                className="bp3-button bp3-small"
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                type="button"
+              >
+                <span
+                  className="bp3-icon bp3-icon-diagram-tree"
+                  icon="diagram-tree"
+                >
+                  <svg
+                    data-icon="diagram-tree"
+                    height={13}
+                    viewBox="0 0 16 16"
+                    width={13}
+                  >
+                    <desc>
+                      diagram-tree
+                    </desc>
+                    <path
+                      d="M15 8v3h-2V9H9v2H7V9H3v2H1V8a1 1 0 011-1h5V5h2v2h5a1 1 0 011 1zM1 12h2a1 1 0 011 1v2a1 1 0 01-1 1H1a1 1 0 01-1-1v-2a1 1 0 011-1zm12 0h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1zm-6 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1v-2a1 1 0 011-1zM7 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V1a1 1 0 011-1z"
+                      fillRule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="bp3-button-text"
+                >
+                  View All
+                   
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          className="SchedulesList__Items-iq7kk9-2 gXSmNS"
+        />
       </div>
       <div
         style={
@@ -20696,7 +21260,7 @@ exports[`renders without error 1`] = `
   }
 >
   <div
-    className="LeftNav__LeftNavContainer-sc-1s6k43w-1 eTCgsW"
+    className="LeftNav__LeftNavContainer-sc-1s6k43w-2 goigJr"
   >
     <div
       style={
@@ -20706,7 +21270,7 @@ exports[`renders without error 1`] = `
       }
     >
       <div
-        className="LeftNav__LogoContainer-sc-1s6k43w-4 kFRSr"
+        className="LeftNav__LogoContainer-sc-1s6k43w-5 ebRkKK"
       >
         <img
           alt="logo"
@@ -20723,7 +21287,7 @@ exports[`renders without error 1`] = `
           }
         />
         <div
-          className="LeftNav__LogoMetaContainer-sc-1s6k43w-5 jVbWDi"
+          className="LeftNav__LogoMetaContainer-sc-1s6k43w-6 hAsnwr"
         >
           <img
             alt="title"
@@ -20751,7 +21315,7 @@ exports[`renders without error 1`] = `
         />
       </div>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/runs"
         onClick={[Function]}
       >
@@ -20775,13 +21339,13 @@ exports[`renders without error 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Runs
         </div>
       </a>
       <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
         href="/assets"
         onClick={[Function]}
       >
@@ -20805,9 +21369,39 @@ exports[`renders without error 1`] = `
           </svg>
         </span>
         <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
         >
           Assets
+        </div>
+      </a>
+      <a
+        className="LeftNav__Tab-sc-1s6k43w-3 jgIaWh"
+        href="/scheduler"
+        onClick={[Function]}
+      >
+        <span
+          className="bp3-icon bp3-icon-time"
+          icon="time"
+        >
+          <svg
+            data-icon="time"
+            height={18}
+            viewBox="0 0 16 16"
+            width={18}
+          >
+            <desc>
+              time
+            </desc>
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm1-6.41V4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .28.11.53.29.71l2 2a1.003 1.003 0 001.42-1.42L9 7.59z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <div
+          className="LeftNav__TabLabel-sc-1s6k43w-4 kirFmu"
+        >
+          Scheduler
         </div>
       </a>
     </div>
@@ -20891,36 +21485,11 @@ exports[`renders without error 1`] = `
           </div>
         </div>
       </div>
-      <a
-        className="LeftNav__Tab-sc-1s6k43w-2 kYoTIm"
-        href="/schedules"
-        onClick={[Function]}
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
       >
-        <span
-          className="bp3-icon bp3-icon-calendar"
-          icon="calendar"
-        >
-          <svg
-            data-icon="calendar"
-            height={18}
-            viewBox="0 0 16 16"
-            width={18}
-          >
-            <desc>
-              calendar
-            </desc>
-            <path
-              d="M11 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1s-1 .4-1 1v1c0 .5.4 1 1 1zm3-2h-1v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H6v1c0 1.1-.9 2-2 2s-2-.9-2-2V1H1c-.6 0-1 .5-1 1v12c0 .6.4 1 1 1h13c.6 0 1-.4 1-1V2c0-.6-.5-1-1-1zM5 13H2v-3h3v3zm0-4H2V6h3v3zm4 4H6v-3h3v3zm0-4H6V6h3v3zm4 4h-3v-3h3v3zm0-4h-3V6h3v3zM4 3c.6 0 1-.5 1-1V1c0-.6-.4-1-1-1S3 .4 3 1v1c0 .5.4 1 1 1z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <div
-          className="LeftNav__TabLabel-sc-1s6k43w-3 dskmQq"
-        >
-          Schedules
-        </div>
-      </a>
+        Pipelines & Solids:
+      </div>
       <div
         style={
           Object {
@@ -21041,6 +21610,95 @@ exports[`renders without error 1`] = `
             airline_demo_warehouse_pipeline
           </a>
         </div>
+      </div>
+      <div
+        className="LeftNav__ItemHeader-sc-1s6k43w-1 dUjoCX"
+      >
+        Schedules:
+      </div>
+      <div
+        style={
+          Object {
+            "borderTop": "1px solid #30404D",
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <div
+          className="SchedulesList__Header-iq7kk9-0 gMLkYr"
+        >
+          <div
+            className="bp3-input-group bp3-small"
+          >
+            <input
+              className="bp3-input"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Search schedules..."
+              style={
+                Object {
+                  "background": "#30404D",
+                  "border": "1px solid #394B59",
+                  "paddingRight": 10,
+                }
+              }
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "width": 4,
+              }
+            }
+          />
+          <div
+            className="bp3-button-group"
+          >
+            <a
+              href="/schedules"
+            >
+              <button
+                className="bp3-button bp3-small"
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                type="button"
+              >
+                <span
+                  className="bp3-icon bp3-icon-diagram-tree"
+                  icon="diagram-tree"
+                >
+                  <svg
+                    data-icon="diagram-tree"
+                    height={13}
+                    viewBox="0 0 16 16"
+                    width={13}
+                  >
+                    <desc>
+                      diagram-tree
+                    </desc>
+                    <path
+                      d="M15 8v3h-2V9H9v2H7V9H3v2H1V8a1 1 0 011-1h5V5h2v2h5a1 1 0 011 1zM1 12h2a1 1 0 011 1v2a1 1 0 01-1 1H1a1 1 0 01-1-1v-2a1 1 0 011-1zm12 0h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1zm-6 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1v-2a1 1 0 011-1zM7 0h2a1 1 0 011 1v2a1 1 0 01-1 1H7a1 1 0 01-1-1V1a1 1 0 011-1z"
+                      fillRule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="bp3-button-text"
+                >
+                  View All
+                   
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          className="SchedulesList__Items-iq7kk9-2 gXSmNS"
+        />
       </div>
       <div
         style={
