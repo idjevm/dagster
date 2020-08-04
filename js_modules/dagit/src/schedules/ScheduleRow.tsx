@@ -433,13 +433,25 @@ export const ScheduleRowHeader: React.FunctionComponent<{
 
 export const ScheduleStateRow: React.FunctionComponent<{
   scheduleState: ScheduleStateFragment;
-}> = ({ scheduleState }) => {
-  const { scheduleName, cronSchedule, ticks, runs, runsCount } = scheduleState;
+  showStatus?: boolean;
+}> = ({ scheduleState, showStatus = false }) => {
+  const { status, scheduleName, cronSchedule, ticks, runs, runsCount } = scheduleState;
 
   const latestTick = ticks.length > 0 ? ticks[0] : null;
 
   return (
     <RowContainer key={scheduleName}>
+      {showStatus && (
+        <RowColumn style={{ maxWidth: 60, paddingLeft: 0, textAlign: "center" }}>
+          <Switch
+            checked={status === ScheduleStatus.RUNNING}
+            large={true}
+            disabled={true}
+            innerLabelChecked="on"
+            innerLabel="off"
+          />
+        </RowColumn>
+      )}
       <RowColumn style={{ flex: 1.4 }}>
         <div>{scheduleName}</div>
       </RowColumn>

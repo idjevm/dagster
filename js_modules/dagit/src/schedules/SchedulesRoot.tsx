@@ -279,6 +279,8 @@ export const SCHEDULES_ROOT_QUERY = gql`
     }
   }
 
+  # TODO: Add back SCHEDULE_DEFINITION_FRAGMENT. For some reason, this is
+  # causing a build time error.
   ${SCHEDULE_DEFINITION_FRAGMENT}
   ${SCHEDULER_FRAGMENT}
   ${PythonErrorInfo.fragments.PythonErrorFragment}
